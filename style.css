@@ -1,3 +1,20 @@
-* {
+body {
+    margin:0;
     font-family: 'Roboto Serif', sans-serif !important;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a:hover {
+    background: #ddd;
+}
+
+.text-muted {
+    float: initial;
+    display: block;
+    text-align: center;
 }
